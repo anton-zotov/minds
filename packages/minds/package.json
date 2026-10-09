@@ -1,0 +1,9 @@
+{
+  "name": "@minds/core", "version": "0.1.0", "type": "module",
+  "files": ["dist"],
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./openrouter": { "types": "./dist/providers/openrouter.d.ts", "import": "./dist/providers/openrouter.js" }
+  },
+  "scripts": { "build": "tsc -p tsconfig.json" }
+}

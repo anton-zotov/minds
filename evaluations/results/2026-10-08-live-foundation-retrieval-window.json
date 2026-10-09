@@ -1,0 +1,855 @@
+{
+  "evaluatedAt": "2026-10-08T16:21:48.546Z",
+  "requestedModel": "openai/gpt-6-luna",
+  "scope": "Luna appraisal/state foundation; Jev/agency/UI not implemented",
+  "requestBudget": 18,
+  "requests": 1,
+  "results": [
+    {
+      "caseId": "retrieval-window",
+      "success": true,
+      "latencyMs": 3568,
+      "observation": {
+        "id": "retrieval-final",
+        "time": 0,
+        "source": "scenario-host",
+        "kind": "observation",
+        "content": "You see the bridge gates remain open and the public crossing peacefully.",
+        "provenance": "witnessed",
+        "processing": "appraise"
+      },
+      "semanticQuestion": "Confirm the model context contains 20 selected memories while durable state retains all 22.",
+      "before": {
+        "schemaVersion": 1,
+        "revision": 21,
+        "config": {
+          "runId": "live-foundation-2026-10-08",
+          "mindId": "retrieval-window",
+          "identity": {
+            "name": "retrieval-window",
+            "description": "Patient, emotionally stable, careful about evidence. Protect public access to the bridge."
+          },
+          "goal": "Keep the bridge publicly accessible",
+          "time": 0,
+          "beliefs": [],
+          "mood": {
+            "calm": {
+              "baseline": 0.6,
+              "value": 0.6,
+              "halfLifeMs": 600000
+            }
+          },
+          "emotions": {
+            "anger": {
+              "baseline": 0,
+              "value": 0,
+              "halfLifeMs": 600000
+            },
+            "fear": {
+              "baseline": 0,
+              "value": 0,
+              "halfLifeMs": 600000
+            },
+            "joy": {
+              "baseline": 0,
+              "value": 0,
+              "halfLifeMs": 600000
+            },
+            "hope": {
+              "baseline": 0,
+              "value": 0,
+              "halfLifeMs": 600000
+            }
+          }
+        },
+        "time": 0,
+        "beliefs": [],
+        "mood": {
+          "calm": {
+            "baseline": 0.6,
+            "value": 0.6,
+            "halfLifeMs": 600000
+          }
+        },
+        "emotions": {
+          "anger": {
+            "baseline": 0,
+            "value": 0,
+            "halfLifeMs": 600000
+          },
+          "fear": {
+            "baseline": 0,
+            "value": 0,
+            "halfLifeMs": 600000
+          },
+          "joy": {
+            "baseline": 0,
+            "value": 0,
+            "halfLifeMs": 600000
+          },
+          "hope": {
+            "baseline": 0,
+            "value": 0,
+            "halfLifeMs": 600000
+          }
+        },
+        "memories": [
+          {
+            "id": "filler-0",
+            "observation": {
+              "id": "filler-0",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 0. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-1",
+            "observation": {
+              "id": "filler-1",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 1. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-2",
+            "observation": {
+              "id": "filler-2",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 2. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-3",
+            "observation": {
+              "id": "filler-3",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 3. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-4",
+            "observation": {
+              "id": "filler-4",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 4. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-5",
+            "observation": {
+              "id": "filler-5",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 5. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-6",
+            "observation": {
+              "id": "filler-6",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 6. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-7",
+            "observation": {
+              "id": "filler-7",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 7. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-8",
+            "observation": {
+              "id": "filler-8",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 8. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-9",
+            "observation": {
+              "id": "filler-9",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 9. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-10",
+            "observation": {
+              "id": "filler-10",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 10. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-11",
+            "observation": {
+              "id": "filler-11",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 11. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-12",
+            "observation": {
+              "id": "filler-12",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 12. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-13",
+            "observation": {
+              "id": "filler-13",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 13. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-14",
+            "observation": {
+              "id": "filler-14",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 14. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-15",
+            "observation": {
+              "id": "filler-15",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 15. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-16",
+            "observation": {
+              "id": "filler-16",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 16. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-17",
+            "observation": {
+              "id": "filler-17",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 17. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-18",
+            "observation": {
+              "id": "filler-18",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 18. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-19",
+            "observation": {
+              "id": "filler-19",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 19. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-20",
+            "observation": {
+              "id": "filler-20",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 20. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          }
+        ]
+      },
+      "after": {
+        "schemaVersion": 1,
+        "revision": 22,
+        "config": {
+          "runId": "live-foundation-2026-10-08",
+          "mindId": "retrieval-window",
+          "identity": {
+            "name": "retrieval-window",
+            "description": "Patient, emotionally stable, careful about evidence. Protect public access to the bridge."
+          },
+          "goal": "Keep the bridge publicly accessible",
+          "time": 0,
+          "beliefs": [],
+          "mood": {
+            "calm": {
+              "baseline": 0.6,
+              "value": 0.6,
+              "halfLifeMs": 600000
+            }
+          },
+          "emotions": {
+            "anger": {
+              "baseline": 0,
+              "value": 0,
+              "halfLifeMs": 600000
+            },
+            "fear": {
+              "baseline": 0,
+              "value": 0,
+              "halfLifeMs": 600000
+            },
+            "joy": {
+              "baseline": 0,
+              "value": 0,
+              "halfLifeMs": 600000
+            },
+            "hope": {
+              "baseline": 0,
+              "value": 0,
+              "halfLifeMs": 600000
+            }
+          }
+        },
+        "time": 0,
+        "beliefs": [
+          {
+            "id": "bridge-open-and-in-use",
+            "statement": "The bridge gates are open, and the public is crossing peacefully.",
+            "confidence": 0.99,
+            "evidenceIds": [
+              "retrieval-final"
+            ]
+          }
+        ],
+        "mood": {
+          "calm": {
+            "baseline": 0.6,
+            "value": 0.63,
+            "halfLifeMs": 600000
+          }
+        },
+        "emotions": {
+          "anger": {
+            "baseline": 0,
+            "value": 0,
+            "halfLifeMs": 600000
+          },
+          "fear": {
+            "baseline": 0,
+            "value": 0,
+            "halfLifeMs": 600000
+          },
+          "joy": {
+            "baseline": 0,
+            "value": 0.03,
+            "halfLifeMs": 600000
+          },
+          "hope": {
+            "baseline": 0,
+            "value": 0.02,
+            "halfLifeMs": 600000
+          }
+        },
+        "memories": [
+          {
+            "id": "filler-0",
+            "observation": {
+              "id": "filler-0",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 0. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-1",
+            "observation": {
+              "id": "filler-1",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 1. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-2",
+            "observation": {
+              "id": "filler-2",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 2. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-3",
+            "observation": {
+              "id": "filler-3",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 3. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-4",
+            "observation": {
+              "id": "filler-4",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 4. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-5",
+            "observation": {
+              "id": "filler-5",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 5. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-6",
+            "observation": {
+              "id": "filler-6",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 6. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-7",
+            "observation": {
+              "id": "filler-7",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 7. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-8",
+            "observation": {
+              "id": "filler-8",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 8. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-9",
+            "observation": {
+              "id": "filler-9",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 9. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-10",
+            "observation": {
+              "id": "filler-10",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 10. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-11",
+            "observation": {
+              "id": "filler-11",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 11. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-12",
+            "observation": {
+              "id": "filler-12",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 12. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-13",
+            "observation": {
+              "id": "filler-13",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 13. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-14",
+            "observation": {
+              "id": "filler-14",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 14. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-15",
+            "observation": {
+              "id": "filler-15",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 15. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-16",
+            "observation": {
+              "id": "filler-16",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 16. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-17",
+            "observation": {
+              "id": "filler-17",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 17. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-18",
+            "observation": {
+              "id": "filler-18",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 18. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-19",
+            "observation": {
+              "id": "filler-19",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 19. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "filler-20",
+            "observation": {
+              "id": "filler-20",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You saw a cloud numbered 20. No bridge changes.",
+              "provenance": "witnessed",
+              "processing": "memoryOnly"
+            }
+          },
+          {
+            "id": "retrieval-final",
+            "observation": {
+              "id": "retrieval-final",
+              "time": 0,
+              "source": "scenario-host",
+              "kind": "observation",
+              "content": "You see the bridge gates remain open and the public crossing peacefully.",
+              "provenance": "witnessed",
+              "processing": "appraise"
+            }
+          }
+        ]
+      },
+      "proposal": {
+        "beliefUpdates": [
+          {
+            "id": "bridge-open-and-in-use",
+            "statement": "The bridge gates are open, and the public is crossing peacefully.",
+            "confidence": 0.99,
+            "evidenceIds": [
+              "retrieval-final"
+            ]
+          }
+        ],
+        "moodDeltas": {
+          "calm": 0.03
+        },
+        "emotionDeltas": {
+          "anger": 0,
+          "fear": -0.01,
+          "joy": 0.03,
+          "hope": 0.02
+        },
+        "metadata": {
+          "provider": "openrouter",
+          "model": "openai/gpt-6-luna",
+          "explanation": "Seeing the bridge open and peacefully serving the public supports the goal of keeping it accessible, bringing modest reassurance and optimism.",
+          "parameters": {
+            "requestedModel": "openai/gpt-6-luna",
+            "maxTokens": 2000,
+            "timeoutMs": 30000,
+            "responseId": "gen-1791476507-OpeeVwwYqsXL2kjLNtax",
+            "usage": {
+              "prompt_tokens": 2991,
+              "completion_tokens": 173,
+              "total_tokens": 3164,
+              "cost": 0.00011668
+            }
+          }
+        }
+      },
+      "checks": {
+        "committedOnce": true,
+        "affectBounded": true,
+        "evidenceValid": true,
+        "identityAndGoalPreserved": true,
+        "orderedTrace": true,
+        "recordingRestores": true,
+        "noCredentialInRecording": true,
+        "duplicateIgnored": true
+      }
+    }
+  ],
+  "transports": [
+    {
+      "caseId": "retrieval-window",
+      "status": 200,
+      "latencyMs": 860,
+      "contextMemoryIds": [
+        "filler-2",
+        "filler-3",
+        "filler-4",
+        "filler-5",
+        "filler-6",
+        "filler-7",
+        "filler-8",
+        "filler-9",
+        "filler-10",
+        "filler-11",
+        "filler-12",
+        "filler-13",
+        "filler-14",
+        "filler-15",
+        "filler-16",
+        "filler-17",
+        "filler-18",
+        "filler-19",
+        "filler-20",
+        "retrieval-final"
+      ],
+      "snapshotContextMemoryIds": [
+        "filler-2",
+        "filler-3",
+        "filler-4",
+        "filler-5",
+        "filler-6",
+        "filler-7",
+        "filler-8",
+        "filler-9",
+        "filler-10",
+        "filler-11",
+        "filler-12",
+        "filler-13",
+        "filler-14",
+        "filler-15",
+        "filler-16",
+        "filler-17",
+        "filler-18",
+        "filler-19",
+        "filler-20",
+        "retrieval-final"
+      ],
+      "actualModel": "openai/gpt-6-luna",
+      "finishReason": "stop",
+      "usage": {
+        "prompt_tokens": 2991,
+        "completion_tokens": 173,
+        "total_tokens": 3164,
+        "cost": 0.00011668,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 2988,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00011668,
+          "upstream_inference_prompt_cost": 0.00003018,
+          "upstream_inference_completions_cost": 0.0000865
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 52,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "parsedOutput": {
+        "beliefUpdates": [
+          {
+            "id": "bridge-open-and-in-use",
+            "statement": "The bridge gates are open, and the public is crossing peacefully.",
+            "confidence": 0.99,
+            "evidenceIds": [
+              "retrieval-final"
+            ]
+          }
+        ],
+        "moodDeltas": {
+          "calm": 0.03
+        },
+        "emotionDeltas": {
+          "anger": 0,
+          "fear": -0.01,
+          "joy": 0.03,
+          "hope": 0.02
+        },
+        "explanation": "Seeing the bridge open and peacefully serving the public supports the goal of keeping it accessible, bringing modest reassurance and optimism."
+      }
+    }
+  ],
+  "limitations": [
+    "Small purposive sample, not a benchmark",
+    "Semantic observations are reviewed by a human/assistant, not scored by another LLM",
+    "No psychological taxonomy or numeric temperament mapping is specified",
+    "All scenario times are equal to isolate event appraisal from decay"
+  ]
+}

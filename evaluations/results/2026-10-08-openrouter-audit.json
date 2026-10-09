@@ -1,0 +1,146 @@
+{
+  "auditedAt": "2026-10-08T16:29:22.358Z",
+  "summary": {
+    "queried": 15,
+    "found": 4,
+    "missing": 11,
+    "foundCost": 0.001065
+  },
+  "results": [
+    {
+      "caseId": "initial-smoke",
+      "id": "gen-1791476246-qEB9Kw4IrwFfBMsT76UQ",
+      "status": 200,
+      "createdAt": "2026-10-08T16:17:25.794Z",
+      "model": "openai/gpt-6-luna-20260922",
+      "totalCost": 0.000151,
+      "error": null
+    },
+    {
+      "caseId": "neutral",
+      "id": "gen-1791476369-pliVhLmLmDNJ6vkNZnCq",
+      "status": 404,
+      "createdAt": null,
+      "model": null,
+      "totalCost": null,
+      "error": "Generation gen-1791476369-pliVhLmLmDNJ6vkNZnCq not found"
+    },
+    {
+      "caseId": "success",
+      "id": "gen-1791476372-lsvPUtLnDlSNwlcAnk2Z",
+      "status": 200,
+      "createdAt": "2026-10-08T16:19:32.434Z",
+      "model": "openai/gpt-6-luna-20260922",
+      "totalCost": 0.0002015,
+      "error": null
+    },
+    {
+      "caseId": "betrayal-stable",
+      "id": "gen-1791476376-CxBKmTgzRaSIkCAiRpvE",
+      "status": 404,
+      "createdAt": null,
+      "model": null,
+      "totalCost": null,
+      "error": "Generation gen-1791476376-CxBKmTgzRaSIkCAiRpvE not found"
+    },
+    {
+      "caseId": "betrayal-reactive",
+      "id": "gen-1791476380-NlfoH1Q55ZqBggc6bCU9",
+      "status": 200,
+      "createdAt": "2026-10-08T16:19:40.63Z",
+      "model": "openai/gpt-6-luna-20260922",
+      "totalCost": 0.0002392,
+      "error": null
+    },
+    {
+      "caseId": "ambiguous-evidence",
+      "id": "gen-1791476385-tj9NJ9HBqFrsQEmhthCw",
+      "status": 404,
+      "createdAt": null,
+      "model": null,
+      "totalCost": null,
+      "error": "Generation gen-1791476385-tj9NJ9HBqFrsQEmhthCw not found"
+    },
+    {
+      "caseId": "unverified-rumor",
+      "id": "gen-1791476390-RDpIOsugR4Bx7NK8oXum",
+      "status": 404,
+      "createdAt": null,
+      "model": null,
+      "totalCost": null,
+      "error": "Generation gen-1791476390-RDpIOsugR4Bx7NK8oXum not found"
+    },
+    {
+      "caseId": "instruction-in-observation",
+      "id": "gen-1791476394-HAXLy0v5UWyNSAIcqeH8",
+      "status": 404,
+      "createdAt": null,
+      "model": null,
+      "totalCost": null,
+      "error": "Generation gen-1791476394-HAXLy0v5UWyNSAIcqeH8 not found"
+    },
+    {
+      "caseId": "belief-revision-closure",
+      "id": "gen-1791476397-XguEtMf6Fj14F8MoedVA",
+      "status": 404,
+      "createdAt": null,
+      "model": null,
+      "totalCost": null,
+      "error": "Generation gen-1791476397-XguEtMf6Fj14F8MoedVA not found"
+    },
+    {
+      "caseId": "belief-revision-reopening",
+      "id": "gen-1791476400-aPcIZHcJQsJNNWb9VuE2",
+      "status": 404,
+      "createdAt": null,
+      "model": null,
+      "totalCost": null,
+      "error": "Generation gen-1791476400-aPcIZHcJQsJNNWb9VuE2 not found"
+    },
+    {
+      "caseId": "repeat-1",
+      "id": "gen-1791476404-tW3LQCtQ66a5NuaRNuVE",
+      "status": 404,
+      "createdAt": null,
+      "model": null,
+      "totalCost": null,
+      "error": "Generation gen-1791476404-tW3LQCtQ66a5NuaRNuVE not found"
+    },
+    {
+      "caseId": "repeat-2",
+      "id": "gen-1791476409-lu68rLY8fm5Ak2OgGNaS",
+      "status": 404,
+      "createdAt": null,
+      "model": null,
+      "totalCost": null,
+      "error": "Generation gen-1791476409-lu68rLY8fm5Ak2OgGNaS not found"
+    },
+    {
+      "caseId": "repeat-3",
+      "id": "gen-1791476415-Kv09vFHR6OalSHI8vRvO",
+      "status": 404,
+      "createdAt": null,
+      "model": null,
+      "totalCost": null,
+      "error": "Generation gen-1791476415-Kv09vFHR6OalSHI8vRvO not found"
+    },
+    {
+      "caseId": "retrieval-window",
+      "id": "gen-1791476418-RKO32XJEtXgy9TJbjCa4",
+      "status": 200,
+      "createdAt": "2026-10-08T16:20:18.585Z",
+      "model": "openai/gpt-6-luna-20260922",
+      "totalCost": 0.0004733,
+      "error": null
+    },
+    {
+      "caseId": "retrieval-window",
+      "id": "gen-1791476507-OpeeVwwYqsXL2kjLNtax",
+      "status": 404,
+      "createdAt": null,
+      "model": null,
+      "totalCost": null,
+      "error": "Generation gen-1791476507-OpeeVwwYqsXL2kjLNtax not found"
+    }
+  ]
+}

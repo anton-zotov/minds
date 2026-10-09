@@ -1,0 +1,8 @@
+{
+  "name": "@minds/inspector", "version": "0.1.0", "type": "module",
+  "files": ["dist", "src/styles.css"],
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" }, "./styles.css": "./src/styles.css" },
+  "peerDependencies": { "react": "^19.0.0" },
+  "dependencies": { "@minds/core": "0.1.0" },
+  "scripts": { "build": "tsc -p tsconfig.json" }
+}

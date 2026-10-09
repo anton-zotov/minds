@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.test-dist/
+.superpowers/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+test-results/
+playwright-report/
+
+.tmp/

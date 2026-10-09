@@ -1,0 +1,31 @@
+{
+  "name": "minds-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/minds",
+    "packages/inspector",
+    "apps/playbox"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node scripts/clean.mjs && npm run build --workspace=@minds/core && tsc -p tsconfig.json && npm run build --workspace=@minds/inspector && npm run build --workspace=@minds/playbox",
+    "typecheck": "tsc -p packages/minds/tsconfig.json --noEmit && tsc -p tsconfig.json --noEmit && tsc -p packages/inspector/tsconfig.json --noEmit && tsc -p apps/playbox/tsconfig.json && tsc -p tsconfig.e2e.json",
+    "test": "npm run build && node --test .test-dist/packages/minds/test/*.test.js apps/playbox/test/*.test.ts",
+    "dev": "node scripts/dev.mjs",
+    "predev": "npm run build --workspace=@minds/core",
+    "test:e2e": "playwright test",
+    "example:foundation": "npm run build && node .test-dist/examples/library-foundation.js",
+    "example:openrouter": "npm run build && node --env-file-if-exists=.env .test-dist/examples/openrouter-foundation.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "7.0.2",
+    "vite": "^8.3.4"
+  }
+}

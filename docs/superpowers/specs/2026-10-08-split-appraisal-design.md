@@ -1,0 +1,15 @@
+# Sequential belief and emotional appraisal
+
+User intent: emotional appraisal must see the event's updated subjective beliefs. Use Jev for belief decisions and emotional changes; preserve the minimal Playbox UI. Standing user instruction waives repeated approval requests.
+
+Add optional `CognitionProvider.stages` with `updateBeliefs(context)` and `appraiseEmotions(context)`. Legacy `appraise` remains supported. Stage results are independently validated: belief updates only, then mood/emotion deltas only. The runtime applies belief upserts on detached state, rebuilds the subjective context, appraises/applies emotions, then plans intentions. Commit all stages once; failures commit nothing. Memory-only and time operations still skip inference.
+
+OpenRouter gains `appraisalDecisionModel` and `appraisalPolicy` options. A generative chat model proposes at most 16 sourced belief statements, reusing an existing ID for revision; Jev evaluates adoption and subjective confidence for each proposal in one batch. Acceptance uses a recorded threshold (0.65 default). Statements are not objective truth. Rejected proposals preserve prior beliefs; accepted changes require current observation evidence. Empty proposal pools skip the Jev belief call and record that skip.
+
+Jev then scores signed incremental changes for each host-defined mood/emotion dimension with a nine-level rubric centered at zero. Map expected score via `(score - 4) / 4 * limit`; limits default to 0.1 for mood and 0.3 for emotions and are configurable finite values in [0,1]. These are explicit runtime heuristics, not calibrated psychology. Use actual dimension names, identity, prior affect, revised beliefs and permitted memories. No new dimensions or world outcomes can be invented. If no dimensions exist, return empty deltas without inference.
+
+Native schema 4 begins on a split appraised event; preserve old version 1/2/3 recordings and legacy provider behavior. Completion must not downgrade schema 4. Record `belief-update` and `emotional-appraisal` decision payloads with exact input/result, raw answers, policy and supplemental generative proposal metadata. Replay reconstructs each stage's context with no inference and canonically checks the whole history.
+
+Playbox live provider defaults appraisal decisions to the configured Jev decision model, with an optional explicit appraisal override. Offline legacy fixture remains a compatibility example; mock hybrid browser coverage demonstrates the split flow. Inspector distinguishes appraisal stages from planning and counts actual provider operations, including proposal calls. Keep UI labels concise.
+
+Verification: ordering, preserved uncertainty, rejection, normalized signed deltas, boundary/empty cases, late rollback, credential redaction, replay/tampering/legacy restoration, live configuration, browser stage inspection and existing visual regression suite. Independent review before completion. No live inference necessary for runtime correctness; live quality remains unverified.

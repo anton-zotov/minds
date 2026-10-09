@@ -1,0 +1,5 @@
+{
+  "name": "@minds/playbox", "private": true, "version": "0.1.0", "type": "module",
+  "dependencies": { "@minds/core": "0.1.0", "@minds/inspector": "0.1.0", "react": "^19.0.0", "react-dom": "^19.0.0" },
+  "scripts": { "build": "vite build", "dev": "vite --host 127.0.0.1" }
+}
